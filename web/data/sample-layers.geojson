@@ -1,0 +1,98 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4194,
+          37.7749
+        ]
+      },
+      "properties": {
+        "name": "San Francisco",
+        "population": "883305",
+        "style": {
+          "fill": {
+            "color": "#ff0000"
+          },
+          "size": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "2",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -122.4,
+            37.8
+          ],
+          [
+            -122.5,
+            37.9
+          ],
+          [
+            -122.6,
+            37.8
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fake River",
+        "style": {
+          "stroke": {
+            "color": "#0000ff",
+            "width": "2"
+          }
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "3",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.45,
+              37.75
+            ],
+            [
+              -122.4,
+              37.7
+            ],
+            [
+              -122.45,
+              37.7
+            ],
+            [
+              -122.45,
+              37.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Golden Gate Park",
+        "style": {
+          "fill": {
+            "color": "#008000",
+            "opacity": "0.5"
+          },
+          "stroke": {
+            "color": "#000000",
+            "width": "1"
+          }
+        }
+      }
+    }
+  ]
+}

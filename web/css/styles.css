@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#map-container {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+}
