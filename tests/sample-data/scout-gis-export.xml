@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScoutGIS>
+  <Layer name="Cities" type="point">
+    <Feature id="1">
+      <Geometry>
+        <Point x="-122.4194" y="37.7749"/>
+      </Geometry>
+      <Attributes>
+        <Attribute name="name" value="San Francisco"/>
+        <Attribute name="population" value="883305"/>
+      </Attributes>
+      <Style>
+        <Fill color="#ff0000"/>
+        <Size value="5"/>
+      </Style>
+    </Feature>
+  </Layer>
+  <Layer name="Rivers" type="line">
+    <Feature id="2">
+      <Geometry>
+        <LineString>
+          <Coordinates>-122.4 37.8, -122.5 37.9, -122.6 37.8</Coordinates>
+        </LineString>
+      </Geometry>
+      <Attributes>
+        <Attribute name="name" value="Fake River"/>
+      </Attributes>
+      <Style>
+        <Stroke color="#0000ff" width="2"/>
+      </Style>
+    </Feature>
+  </Layer>
+  <Layer name="Parks" type="polygon">
+    <Feature id="3">
+      <Geometry>
+        <Polygon>
+          <Coordinates>-122.45 37.75, -122.4 37.7, -122.45 37.7, -122.45 37.75</Coordinates>
+        </Polygon>
+      </Geometry>
+      <Attributes>
+        <Attribute name="name" value="Golden Gate Park"/>
+      </Attributes>
+      <Style>
+        <Fill color="#008000" opacity="0.5"/>
+        <Stroke color="#000000" width="1"/>
+      </Style>
+    </Feature>
+  </Layer>
+</ScoutGIS>
